@@ -1,0 +1,18 @@
+﻿<Window x:Class="Tamagotchi_IPO2.VentanaBienvenida"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tamagotchi_IPO2"
+        mc:Ignorable="d"
+        Title="VentanaBienvenida" Height="331.513" Width="682.773" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Label Content="Nombre de usuario" HorizontalAlignment="Left" Height="25.667" Margin="171.524,150.623,0,0" VerticalAlignment="Top" Width="116.445"/>
+        <Label Content="IPO2 - Tamagotchi" HorizontalAlignment="Left" Height="52.8" Margin="220.524,42.623,0,0" VerticalAlignment="Top" Width="192.445" FontSize="20"/>
+        <TextBox x:Name="tbNombre" HorizontalAlignment="Left" Height="25.667" Margin="292.969,150.623,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MaxLength="16"/>
+        <Button Content="Empezar&#xD;&#xA;" HorizontalAlignment="Left" Margin="292.969,214.623,0,0" VerticalAlignment="Top" Width="120" Height="27.92" Click="enviarNombre"/>
+        <Label Content="Hecho por Juan Tomás Araque Martínez" HorizontalAlignment="Left" Height="52.8" Margin="171.524,73.156,0,0" VerticalAlignment="Top" Width="306.045" FontSize="16"/>
+        <Label x:Name="lblInformacion" Content="" HorizontalAlignment="Left" Height="28.333" Margin="292.969,181.29,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
